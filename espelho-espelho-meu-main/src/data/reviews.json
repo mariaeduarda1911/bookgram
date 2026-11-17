@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "user": "bookbybia",
+    "image": "/images/vigiame.jpg",
+    "title": "VIGIA-ME",
+    "rating": 5,
+    "text": "AARON WARNER PAI DE MENINA SIIIIIM"
+  },
+  {
+    "id": 2,
+    "user": "anareads",
+    "image": "/images/quartaasa.jpg",
+    "title": "QUARTA ASA",
+    "rating": 5,
+    "text": "Grande livro, ainda não li"
+  },
+  {
+    "id": 3,
+    "user": "entrepaginas",
+    "image": "/images/divinacomedia.jpg",
+    "title": "A DIVINA COMÉDIA",
+    "rating": 3,
+    "text": "Se eu soubesse que não ia entender, tinha comprado em italiano logo"
+  }
+]

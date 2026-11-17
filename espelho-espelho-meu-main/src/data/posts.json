@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "user": "bookaholic",
+    "location": "São Paulo, Brasil",
+    "avatar": "/images/evajacks-icon.jpg",
+    "image": "/images/ouabh.jpg",
+    "alt": "Livros",
+    "likes": 1508,
+    "caption": "'There's Nothing of Equal Value to Me'🦊🍎"
+  },
+  {
+    "id": 2,
+    "user": "bookishgirl",
+    "location": "Rio de Janeiro, Brasil",
+    "avatar": "/images/gatoicon.jpg",
+    "image": "/images/sebo.jpg",
+    "alt": "Sebo",
+    "likes": 782,
+    "caption": "I🩷SEBO"
+  },
+  {
+    "id": 3,
+    "user": "todasamamosoaaron",
+    "location": "Curitiba, Brasil",
+    "avatar": "/images/capivara.jpg",
+    "image": "/images/livropraia.jpg",
+    "alt": "Livro na praia",
+    "likes": 250,
+    "caption": "🤓👆"
+  }
+]
