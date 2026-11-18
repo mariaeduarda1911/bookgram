@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "username": "suzanabooklover",
+    "name": "Suzana",
+    "avatar": "/images/macaco.jpg",
+    "bio": "Livros, café e algumas crises literárias.",
+    "followers": 128,
+    "following": 54
+  },
+  {
+    "id": 2,
+    "username": "Gusta.booktok",
+    "name": "Gusta",
+    "avatar": "/images/gatopensando.jpg",
+    "bio": "Romances, fantasias e livros que não consigo largar.",
+    "followers": 203,
+    "following": 71
+  },
+  {
+    "id": 3,
+    "username": "maria.reads",
+    "name": "Maria",
+    "avatar": "/images/hm.jpg",
+    "bio": "Tentando terminar todos os livros da estante.",
+    "followers": 156,
+    "following": 63
+  },
+  {
+    "id": 4,
+    "username": "carol.lit",
+    "name": "Carol",
+    "avatar": "/images/lendo.jpg",
+    "bio": "Sempre com um livro por perto.",
+    "followers": 341,
+    "following": 92
+  }
+]

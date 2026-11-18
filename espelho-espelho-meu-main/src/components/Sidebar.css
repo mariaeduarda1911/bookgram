@@ -1,0 +1,164 @@
+.sidebar {
+    width: 300px;
+    padding-top: 32px;
+}
+
+/* PERFIL DO USUÁRIO */
+
+.sidebar__profile {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 28px;
+}
+
+.sidebar__profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sidebar__profile div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.sidebar__profile strong {
+    font-size: 14px;
+    color: #262626;
+}
+
+.sidebar__profile span {
+    font-size: 13px;
+    color: #8e8e8e;
+}
+
+/* TÍTULO */
+
+.sidebar__title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 18px;
+}
+
+.sidebar__title span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #8e8e8e;
+}
+
+.sidebar__title button {
+    border: 0;
+    background: transparent;
+    font-size: 12px;
+    font-weight: 600;
+    color: #262626;
+    cursor: pointer;
+}
+
+/* USUÁRIOS */
+
+.sidebar__users {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.suggestion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.suggestion__user {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+
+    min-width: 0;
+
+    padding: 0;
+
+    border: 0;
+    background: transparent;
+
+    text-align: left;
+    cursor: pointer;
+}
+
+.suggestion__user img {
+    width: 40px;
+    height: 40px;
+
+    border-radius: 50%;
+    object-fit: cover;
+
+    flex-shrink: 0;
+}
+
+.suggestion__user span {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    min-width: 0;
+}
+
+.suggestion__user strong {
+    max-width: 150px;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    font-size: 13px;
+    color: #262626;
+}
+
+.suggestion__user small {
+    font-size: 11px;
+    color: #8e8e8e;
+}
+
+/* BOTÃO SEGUIR */
+
+.suggestion__follow {
+    border: 0;
+    background: transparent;
+
+    color: #0095f6;
+
+    font-size: 12px;
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+.suggestion__follow:hover {
+    color: #00376b;
+}
+
+.suggestion__follow.following {
+    color: #8e8e8e;
+}
+
+/* RODAPÉ */
+
+.sidebar__footer {
+    margin-top: 35px;
+
+    font-size: 10px;
+    color: #c0c0c0;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 900px) {
+    .sidebar {
+        display: none;
+    }
+}

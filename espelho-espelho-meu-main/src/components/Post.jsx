@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { FiBookmark, FiHeart, FiMessageCircle, FiMoreHorizontal, FiSend } from 'react-icons/fi'
+import Comments from './Comments'
 
 function Post({ post }) {
   const [liked, setLiked] = useState(false)
@@ -44,15 +45,27 @@ function Post({ post }) {
             <FiHeart />
           </button>
 
-          <button className="icon-button" type="button" aria-label="Comentar">
+          <button
+            className="icon-button"
+            type="button"
+            aria-label="Comentar"
+          >
             <FiMessageCircle />
           </button>
 
-          <button className="icon-button" type="button" aria-label="Enviar">
+          <button
+            className="icon-button"
+            type="button"
+            aria-label="Enviar"
+          >
             <FiSend />
           </button>
 
-          <button className="icon-button" type="button" aria-label="Salvar">
+          <button
+            className="icon-button"
+            type="button"
+            aria-label="Salvar"
+          >
             <FiBookmark />
           </button>
 
@@ -66,6 +79,8 @@ function Post({ post }) {
           <strong>{post.user}</strong>
           {post.caption}
         </p>
+
+        <Comments comments={post.comments} />
       </div>
     </article>
   )

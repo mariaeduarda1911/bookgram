@@ -1,0 +1,113 @@
+.comments {
+  width: 100%;
+  margin-top: 14px;
+}
+
+/* Comentários */
+.comments__list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.comments__list p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #262626;
+}
+
+.comments__list strong {
+  color: #262626;
+  font-weight: 700;
+  margin-right: 5px;
+}
+
+/* Caixa para escrever comentário */
+.comments__form {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  width: 100%;
+  box-sizing: border-box;
+
+  background: #f7f3f6;
+  border: 1px solid #eadfe8;
+  border-radius: 24px;
+
+  padding: 7px 10px 7px 15px;
+
+  transition: border-color 0.2s ease,
+              box-shadow 0.2s ease;
+}
+
+.comments__form:focus-within {
+  border-color: #bb7fb1;
+  box-shadow: 0 0 0 3px rgba(187, 127, 177, 0.12);
+}
+
+.comments__form input {
+  flex: 1;
+  min-width: 0;
+
+  border: none;
+  outline: none;
+  background: transparent;
+
+  font-family: inherit;
+  font-size: 13px;
+  color: #262626;
+}
+
+.comments__form input::placeholder {
+  color: #999;
+}
+
+/* Botão publicar */
+.comments__form button {
+  flex-shrink: 0;
+
+  border: none;
+  border-radius: 18px;
+
+  background: #bb7fb1;
+  color: white;
+
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+
+  padding: 7px 14px;
+
+  cursor: pointer;
+
+  transition: transform 0.15s ease,
+              background 0.2s ease;
+}
+
+.comments__form button:hover {
+  background: #a9699e;
+  transform: translateY(-1px);
+}
+
+.comments__form button:active {
+  transform: translateY(0);
+}
+
+/* Celular */
+@media (max-width: 480px) {
+  .comments__form {
+    padding: 6px 8px 6px 13px;
+  }
+
+  .comments__form input {
+    font-size: 12px;
+  }
+
+  .comments__form button {
+    padding: 7px 11px;
+    font-size: 11px;
+  }
+}
